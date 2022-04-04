@@ -161,7 +161,7 @@ RUN conda env update --name root --file environment.yml && \
     clean-layer.sh
 
 # Copy Code
-COPY /Disco_Diffusion_v5_1_[w_Turbo].ipynb.ipynb /code/Disco_Diffusion_v5_1_[w_Turbo].ipynb.ipynb
+COPY /Disco_Diffusion_v5_1.ipynb /code/Disco_Diffusion_v5_1.ipynb
 
 ### Start Ainize Worksapce ###
 COPY start.sh /scripts/start.sh
