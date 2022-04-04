@@ -76,7 +76,7 @@ ENV \
     CONDA_DIR=/opt/conda \
     CONDA_ROOT=/opt/conda
 ENV PATH="${CONDA_DIR}/bin:${PATH}"
-ARG \
+ENV \
     PYTHON_VERSION=default \
     CONDA_MIRROR=https://github.com/conda-forge/miniforge/releases/latest/download
 
