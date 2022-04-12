@@ -162,6 +162,7 @@ RUN conda env update --name root --file environment.yml && \
 
 # Copy Code
 COPY /Disco_Diffusion_v5_1.ipynb /code/Disco_Diffusion_v5_1.ipynb
+COPY /code /code
 
 ### Start Ainize Worksapce ###
 COPY start.sh /scripts/start.sh
