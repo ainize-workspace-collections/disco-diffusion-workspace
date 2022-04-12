@@ -268,7 +268,7 @@ dependencies:
       - blobfile==1.2.8
       - cachetools==5.0.0
       - click==8.1.0
-      - clip==1.0
+      - git+https://github.com/openai/CLIP.git
       - cycler==0.11.0
       - datetime==4.4
       - docker-pycreds==0.4.0
@@ -283,10 +283,10 @@ dependencies:
       - google-auth==2.6.2
       - google-auth-oauthlib==0.4.6
       - grpcio==1.44.0
-      - guided-diffusion==0.0.0
+      - git+https://github.com/crowsonkb/guided-diffusion
       - imageio==2.16.1
       - kiwisolver==1.4.2
-      - latent-diffusion==0.0.1
+      - git+https://github.com/CompVis/latent-diffusion.git
       - lpips==0.1.4
       - markdown==3.3.6
       - matplotlib==3.5.1
@@ -315,7 +315,7 @@ dependencies:
       - setuptools==59.5.0
       - shortuuid==1.0.8
       - smmap==5.0.0
-      - taming-transformers==0.0.1
+      - git+https://github.com/CompVis/taming-transformers
       - tenacity==8.0.1
       - tensorboard==2.8.0
       - tensorboard-data-server==0.6.1
